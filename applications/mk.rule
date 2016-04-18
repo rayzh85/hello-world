@@ -1,0 +1,8 @@
+
+#LINUX_DIR := /zhsa042/usrhome/ray.zhang/work/cap210/buildroot/output/build/linux-custom
+#CROSS_COMPILE := $(LINUX_DIR)/../../host/usr/bin/mipsel-buildroot-linux-uclibc-
+
+CC := $(CROSS_COMPILE)gcc
+
+CFLAGS := $(WARNINGS) $(OPTIMIZE) $(DEFS)
+
